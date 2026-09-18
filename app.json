@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "개혁주의 신학 로드맵",
+    "slug": "reformed-theology-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "backgroundColor": "#1C2541",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.example.reformedtheologyapp"
+    },
+    "android": {
+      "package": "com.example.reformedtheologyapp",
+      "adaptiveIcon": {
+        "backgroundColor": "#1C2541"
+      }
+    },
+    "plugins": ["expo-notifications"]
+  }
+}
