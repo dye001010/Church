@@ -10,7 +10,9 @@
       "backgroundColor": "#1C2541",
       "resizeMode": "contain"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.example.reformedtheologyapp"
@@ -21,6 +23,17 @@
         "backgroundColor": "#1C2541"
       }
     },
-    "plugins": ["expo-notifications"]
+    "plugins": [
+      "expo-notifications"
+    ],
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "8f12420f-ecd2-446f-9166-496240f9a763"
+      }
+    }
   }
 }
